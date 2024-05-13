@@ -1,13 +1,28 @@
+@font-face {
+    font-family: beqiner;
+    src: url('../fonts/beqiner/BEQINER.ttf');
+}
+@font-face {
+    font-family: marvello;
+    src: url('../fonts/marvello/Marvello-Regular.ttf');
+}
+@font-face {
+    font-family: rossena;
+    src: url('../fonts/rossena/Rossena.ttf');
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
+    font-family:beqiner;
     background-image: url('../slike/red-casino-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(6, 6, 22);
 }
+#centerI,
+#centerK,
 #center{
     position: fixed;
     padding: 10px;
@@ -15,13 +30,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 700px;
-    height: 430px;
+    width: 900px;
+    height: 420px;
     color: #756663;
     background-color: #6D0000;
     border: 5px solid #420516;
     border-radius: 15px;
     font-size: 45px;
+}
+#centerK{
+    height: 470px;
 }
 #igralci{
     font-size: 45px;
@@ -35,6 +53,7 @@ label{
 .igralci{
     margin: 5px;
     width: 150px;
+    height: 100px;
     padding: 20px 10px;
     display: inline-block;
     text-align: center;
@@ -44,9 +63,14 @@ label{
     color:#A58F00
 }
 #zmagovalec{
-    margin: 5px;
-    padding: 20px 10px;
-    width: 600px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 100px;
+    border-radius: 7px;
     color:#A58F00
 }
 #kocke{
@@ -74,14 +98,26 @@ h1{
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
     width: 250px;
+    height: 100px;
+    border-radius: 7px;
+    color:#A58F00
+}
+.spodiK{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
     height: 100px;
     border-radius: 7px;
     color:#A58F00
 }
 input, select{
     width: 170px;
-    height: 30px;
+    height: 40px;
     font-size: 25px;
     color: #000000;
 }

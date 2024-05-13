@@ -26,12 +26,13 @@
         <title>Game of dice</title>
 		<meta charset="utf-8" >
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/x-icon" href="slike/vijola.png">
+        <link rel="icon" type="image/x-icon" href="slike/rdece.png">
         <script src="js/konec.js"></script>
+
 	</head>
 	<body onload="redirTimer()">
         <h1>Results:</h1>
-        <div id="center">
+        <div id="centerK">
             <form name="Obrazec" id="Obrazec" method="post" autocomplete="off" action="igra.php">
                 <div id="zmagovalec">
                     <?php if($max==$_SESSION["p1Score"]){echo 'Congratulations '.$_SESSION["p1"].' you won!';} ?>
@@ -50,7 +51,7 @@
                     <?php echo $_SESSION["p3"];  ?></br>
                     <?php echo $_SESSION["p3Score"];  ?></br>
                 </div>
-                <div class="spodi">
+                <div class="spodiK">
                     You will be redirected in <span id="time">10</span> seconds.
                 </div>
             </form>

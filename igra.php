@@ -34,36 +34,36 @@
         <title>Game of dice</title>
 		<meta charset="utf-8" >
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/x-icon" href="slike/vijola.png">
+        <link rel="icon" type="image/x-icon" href="slike/rdece.png">
 	</head>
 	<body onload="generate()">
         <h1>Game of dice</h1>
-        <div id="center">
+        <div id="centerI">
             <form name="Obrazec" id="Obrazec" method="post" autocomplete="off" action="<?php if($_SESSION["stevVrz"]==$_SESSION["stevMet"]){echo 'konec.php';}else{echo 'igra.php';}?>">
                 <div class="igralci">
                     <?php echo $_SESSION["p1"];  ?></br>
                     <?php echo $_SESSION["p1Score"];  ?></br>
                     <?php  for ($x = 0; $x <$_SESSION["stevKoc"] ; $x++) {
                         echo "<img src='slike/dice".  $p1Met[$x]. ".gif' alt='dice1' class='kocke'>";
-                    }?></br>
+                    }?>
                 </div>
                 <div class="igralci">
                     <?php echo $_SESSION["p2"];  ?></br>
                     <?php echo $_SESSION["p2Score"];  ?></br>
                     <?php  for ($x = 0; $x <$_SESSION["stevKoc"] ; $x++) {
                         echo "<img src='slike/dice".  $p2Met[$x]. ".gif' alt='dice1' class='kocke'>";
-                    }?></br>
+                    }?>
                 </div>
                 <div class="igralci">
                     <?php echo $_SESSION["p3"];  ?></br>
                     <?php echo $_SESSION["p3Score"];  ?></br>
                     <?php  for ($x = 0; $x <$_SESSION["stevKoc"] ; $x++) {
                         echo "<img src='slike/dice".  $p3Met[$x]. ".gif' alt='dice1' class='kocke'>";
-                    }?></br>
+                    }?>
                 </div>
                 <div class=spodi>
                         <input type="submit" id="gumb" value="<?php if($_SESSION["stevVrz"]==$_SESSION["stevMet"]){echo 'Results';}else {echo 'Throw';}  ?>">
-                    </br>
+                    
                         Throw: <?php echo $_SESSION["stevVrz"]  ?>
                 </div>
             </form>

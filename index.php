@@ -4,7 +4,7 @@
         <title>Game of dice</title>
         <meta charset="utf-8" >
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/x-icon" href="slike/vijola.png">
+        <link rel="icon" type="image/x-icon" href="slike/rdece.png">
     </head>
     <body>
         <h1>Game of dice</h1>
@@ -55,7 +55,7 @@
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
-                    </select><br><br>
+                    </select><br>
                     <label for="stMetov">Number of throws:</label>
                     <select name="stMetov" class="izb">
                         <option value="1">1</option>
@@ -63,7 +63,7 @@
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
-                    </select><br><br>
+                    </select><br>
                     <input type="submit" onClick="return isEmpty()" name="igraj" value="Start"></input>
                 </div>
             </form>
