@@ -36,13 +36,13 @@ body{
     background-color: #6D0000;
     border: 5px solid #420516;
     border-radius: 15px;
-    font-size: 45px;
+    font-size: 35px;
 }
 #centerK{
     height: 470px;
 }
 #igralci{
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 15px;
     overflow: hidden;
@@ -50,21 +50,25 @@ body{
 label{
     color:#A58F00
 }
+.igralciK,
 .igralci{
     margin: 5px;
     width: 150px;
-    height: 100px;
+    height: 200px;
     padding: 20px 10px;
     display: inline-block;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 15px;
     overflow: hidden;
     color:#A58F00
 }
+.igralciK{
+    height: 100px;
+}
 #zmagovalec{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +79,7 @@ label{
 }
 #kocke{
     margin-top: 25px;
-    font-size: 45px;
+    font-size: 35px;
 }
 .izb{
     text-align: center;
@@ -94,11 +98,10 @@ h1{
 }
 .spodi{
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
     width: 250px;
     height: 100px;
     border-radius: 7px;
@@ -106,7 +109,7 @@ h1{
 }
 .spodiK{
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;

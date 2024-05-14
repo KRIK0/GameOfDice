@@ -50,7 +50,7 @@
             </table>
             </div>
                 <div id="kocke">
-                    <label for="stKock">Number of die:</label>
+                    <label for="stKock">Number of dice:</label>
                     <select name="stKock" class="izb">
                         <option value="1">1</option>
                         <option value="2">2</option>

@@ -35,19 +35,19 @@
         <div id="centerK">
             <form name="Obrazec" id="Obrazec" method="post" autocomplete="off" action="igra.php">
                 <div id="zmagovalec">
-                    <?php if($max==$_SESSION["p1Score"]){echo 'Congratulations '.$_SESSION["p1"].' you won!';} ?>
-                    <?php if($max==$_SESSION["p2Score"]){echo 'Congratulations '.$_SESSION["p2"].' you won!';} ?>
-                    <?php if($max==$_SESSION["p3Score"]){echo 'Congratulations '.$_SESSION["p3"].' you won!';} ?>
+                    <?php if($max==$_SESSION["p1Score"]){echo 'Congratulations '.$_SESSION["p1"].', you won!';} ?>
+                    <?php if($max==$_SESSION["p2Score"]){echo 'Congratulations '.$_SESSION["p2"].', you won!';} ?>
+                    <?php if($max==$_SESSION["p3Score"]){echo 'Congratulations '.$_SESSION["p3"].', you won!';} ?>
                 </div>
-                <div class="igralci">
+                <div class="igralciK">
                     <?php echo $_SESSION["p1"];  ?></br>
                     <?php echo $_SESSION["p1Score"];  ?></br>
                 </div>
-                <div class="igralci">
+                <div class="igralciK">
                     <?php echo $_SESSION["p2"];  ?></br>
                     <?php echo $_SESSION["p2Score"];  ?></br>
                 </div>
-                <div class="igralci">
+                <div class="igralciK">
                     <?php echo $_SESSION["p3"];  ?></br>
                     <?php echo $_SESSION["p3Score"];  ?></br>
                 </div>
